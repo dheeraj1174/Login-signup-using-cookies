@@ -1,0 +1,37 @@
+<div class="dashboard-wrapper">
+    <nav class="navbar">
+        <div class="logo">AppLogo</div>
+        <div class="nav-links">
+            <button (click)="onLogout()" class="logout-btn">Logout</button>
+        </div>
+    </nav>
+
+    <main class="content">
+        <div class="welcome-card">
+            <h1>Welcome, <span class="username">{{ user?.username || 'User' }}</span>!</h1>
+            <p class="subtitle">You have successfully logged in.</p>
+
+            <div class="user-details" *ngIf="user">
+                <div class="detail-item">
+                    <label>Email:</label>
+                    <span>{{ user.email }}</span>
+                </div>
+                <div class="detail-item">
+                    <label>User ID:</label>
+                    <span>{{ user._id }}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-grid">
+            <div class="stat-card">
+                <h3>Recent Activity</h3>
+                <p>Your last login was just now.</p>
+            </div>
+            <div class="stat-card">
+                <h3>Profile Status</h3>
+                <p class="status-badge">Active</p>
+            </div>
+        </div>
+    </main>
+</div>

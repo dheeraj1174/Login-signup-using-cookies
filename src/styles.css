@@ -1,1 +1,114 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.auth-container {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.auth-box h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #a0a0a0;
+    /* Gray button as per image */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #888;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.error-msg {
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.success-msg {
+    color: green;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.validation-error {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+    display: block;
+}
+
+.switch-text {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.switch-text a {
+    color: #0000ee;
+    text-decoration: underline;
+    cursor: pointer;
+}

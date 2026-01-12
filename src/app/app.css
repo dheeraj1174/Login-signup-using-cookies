@@ -1,0 +1,23 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f0f0f0;
+    /* Light gray background as seen in the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.validation-error {
+    color: red;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

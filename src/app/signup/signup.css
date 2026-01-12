@@ -1,0 +1,106 @@
+.signup-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-card {
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    text-align: center;
+}
+.success-msg {
+  color: green;
+  font-weight: 600;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.error-msg {
+  color: red;
+  font-weight: 600;
+  margin-bottom: 12px;
+  display: block;
+}
+
+
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 15px;
+    background-color: #a0a0a0;
+    /* Gray button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #888;
+}
+
+.login-link {
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+}
+
+.login-link a {
+    color: #0000ee;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+}
